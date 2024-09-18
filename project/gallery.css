@@ -44,7 +44,7 @@ header p {
   transition: transform 0.3s ease;
 }*/
 .gallery-item img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
