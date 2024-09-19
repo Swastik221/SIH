@@ -128,3 +128,12 @@ footer {
   height: 24px;
   filter: invert(1);
 }
+nav ul {
+  list-style-type: none; /* Removes the bullet points */
+  padding: 0; /* Removes any default padding */
+}
+
+nav ul li {
+  display: inline; /* Displays list items in a row */
+  margin-right: 15px;
+}
