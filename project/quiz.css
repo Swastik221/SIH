@@ -137,3 +137,57 @@ nav ul li {
   display: inline; /* Displays list items in a row */
   margin-right: 15px;
 }
+
+/* Information Section: Key Aspects of the Constitution */
+#constitution-info {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.info-layout {
+  display: flex;
+}
+
+.info-blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 10px; /* Space between blocks */
+  width: 60%; /* Adjust width for the left section */
+}
+
+.block {
+  text-align: center;
+}
+
+.preamble {
+  display: flex;
+  align-items: flex-start;
+  width: 40%; /* Adjust width for the Preamble */
+  padding-left: 20px; /* Add padding for spacing */
+}
+
+.preamble-img {
+  width: 100px; /* Set image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between image and text */
+  border: 2px solid #0a3d62; /* Add a border around the image */
+  border-radius: 5px; /* Round corners of the image */
+}
+
+.block img {
+  width: 70px; /* Set image width for other blocks */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 5px; /* Reduce bottom margin */
+  border: 2px solid #0a3d62; /* Add a border around images */
+  border-radius: 5px; /* Round corners of images */
+}
+
+.block h3 {
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 5px; /* Reduce margin */
+}
+
+.block p, .preamble-text p {
+  font-size: 12px; /* Adjust font size for compactness */
+}

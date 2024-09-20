@@ -199,3 +199,132 @@ footer p {
   }
 }
 
+/* General styling for the Constitution Info Section */
+#constitution-info {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.info-blocks {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.block {
+  width: 30%; /* Adjust width of each block */
+  text-align: center;
+}
+
+.block img {
+  width: 200px; /* Increase image width */
+  height: 200px; /* Adjust height to match */
+  margin-bottom: 20px;
+  border: 5px solid #0a3d62; /* Add a border with color */
+  border-radius: 15px; /* Adds rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  transition: transform 0.3s ease; /* Animation for hover effect */
+}
+
+.block img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.block h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.block p {
+  font-size: 16px;
+}
+
+/* Information Section: Key Aspects of the Constitution */
+#constitution-info {
+  padding: 20px; /* Reduce padding for compactness */
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.info-blocks {
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  flex-wrap: wrap; /* Allow items to wrap */
+  gap: 10px; /* Adjust spacing between blocks */
+}
+
+.block {
+  width: 18%; /* Adjust width for each block */
+  text-align: center;
+}
+
+.preamble {
+  width: 24%; /* Adjust width for the Preamble */
+  display: flex; /* Use flex to align image and text */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.preamble-img {
+  width: 70px; /* Set image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between image and text */
+  border: 2px solid #0a3d62; /* Add a border around the image */
+  border-radius: 5px; /* Round corners of the image */
+}
+
+.block img {
+  width: 70px; /* Set image width for other blocks */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 5px; /* Reduce bottom margin */
+  border: 2px solid #0a3d62; /* Add a border around images */
+  border-radius: 5px; /* Round corners of images */
+}
+
+.block h3 {
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 5px; /* Reduce margin */
+}
+
+.block p, .preamble-text p {
+  font-size: 12px; /* Adjust font size for compactness */
+}
+
+/* Header Styles */
+header {
+  position: fixed; /* Make the header fixed */
+  top: 0; /* Position it at the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  background-color: #09528d; /* Background color */
+  z-index: 1000; /* Ensure it's above other content */
+
+  padding: 10px 20px; /* Padding for header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+/* Body content */
+body {
+  margin-top: 80px; /* Add margin to the top of the body to avoid overlap with fixed header */
+}
+
+/* Other existing styles */
+nav ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Display items in a row */
+}
+
+nav ul li {
+  margin-right: 20px; /* Space between items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Link color */
+}
+
+/* Add any other styles you may have */
