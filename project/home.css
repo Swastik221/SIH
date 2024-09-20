@@ -1,0 +1,201 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #0a3d62;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #38ada9;
+}
+/* Hero Section */
+#hero {
+  background: url('hero-constitution.jpg') no-repeat center center/cover;
+  background-color: #1e3799; /* Add a fallback background color */
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Constitution Information Section */
+#constitution-info {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+#constitution-info h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.info-blocks {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 23%;
+  margin: 20px;
+  text-align: center;
+}
+
+.block img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.block h3 {
+  font-size: 24px;
+  color: #0a3d62;
+}
+
+.block p {
+  font-size: 18px;
+}
+
+/* Timeline Section */
+#timeline {
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: center;
+}
+
+#timeline h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.timeline-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.timeline-item {
+  background-color: #0a3d62;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.timeline-item h4 {
+  font-size: 24px;
+}
+
+.timeline-item p {
+  font-size: 18px;
+}
+
+/* Quiz Call-to-Action */
+#quiz-cta {
+  background-color: #38ada9;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#quiz-cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.quiz-btn {
+  background-color: #fff;
+  color: #38ada9;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-btn:hover {
+  background-color: #0a3d62;
+  color: #fff;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #0a3d62;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 36px;
+  }
+
+  #hero p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .block, .timeline-item {
+    width: 90%;
+  }
+}
+
